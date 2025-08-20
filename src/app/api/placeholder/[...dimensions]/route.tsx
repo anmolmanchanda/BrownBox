@@ -4,7 +4,7 @@ import { NextRequest } from 'next/server';
 export const runtime = 'edge';
 
 export async function GET(
-  request: NextRequest,
+  _request: NextRequest,
   props: { params: Promise<{ dimensions: string[] }> }
 ) {
   const params = await props.params;

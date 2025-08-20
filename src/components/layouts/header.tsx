@@ -11,7 +11,6 @@ import {
   Search, 
   User, 
   Leaf,
-  Package,
   Phone
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
